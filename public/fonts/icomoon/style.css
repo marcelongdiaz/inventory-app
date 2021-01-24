@@ -1,0 +1,88 @@
+@font-face {
+  font-family: 'icomoon';
+  src:  url('fonts/icomoon.eot?uf9uqv');
+  src:  url('fonts/icomoon.eot?uf9uqv#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?uf9uqv') format('truetype'),
+    url('fonts/icomoon.woff?uf9uqv') format('woff'),
+    url('fonts/icomoon.svg?uf9uqv#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-cstm-dashboard:before {
+  content: "\e900";
+  color: #576271;
+}
+.icon-cstm-employees:before {
+  content: "\e901";
+  color: #576271;
+}
+.icon-cstm-invoice .path1:before {
+  content: "\e902";
+  color: rgb(87, 98, 113);
+}
+.icon-cstm-invoice .path2:before {
+  content: "\e903";
+  margin-left: -0.8125em;
+  color: rgb(177, 194, 200);
+}
+.icon-cstm-invoice .path3:before {
+  content: "\e904";
+  margin-left: -0.8125em;
+  color: rgb(177, 194, 200);
+}
+.icon-cstm-invoice .path4:before {
+  content: "\e905";
+  margin-left: -0.8125em;
+  color: rgb(177, 194, 200);
+}
+.icon-cstm-invoice .path5:before {
+  content: "\e906";
+  margin-left: -0.8125em;
+  color: rgb(177, 194, 200);
+}
+.icon-cstm-invoice .path6:before {
+  content: "\e907";
+  margin-left: -0.8125em;
+  color: rgb(177, 194, 200);
+}
+.icon-cstm-invoice .path7:before {
+  content: "\e908";
+  margin-left: -0.8125em;
+  color: rgb(177, 194, 200);
+}
+.icon-cstm-notification:before {
+  content: "\e909";
+  color: #b1c2c8;
+}
+.icon-cstm-caret:before {
+  content: "\e90a";
+  color: #fff;
+}
+.icon-cstm-requisition:before {
+  content: "\e90b";
+  color: #576271;
+}
+.icon-cstm-store:before {
+  content: "\e90c";
+  color: #576271;
+}
+.icon-cstm-support:before {
+  content: "\e90d";
+}
