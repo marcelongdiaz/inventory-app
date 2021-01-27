@@ -4,10 +4,10 @@
     <div class="row">
       <div class="col-md-2 cstm-nav cstm-container">
         <ul class="cstm-nav-list">
-          <li><span class="icon-cstm-dashboard cstm-icon"></span> Dashboard</li>
-          <li><span class="icon-cstm-requisition cstm-icon"></span> Requisitions</li>
-          <li><span class="icon-cstm-store cstm-icon"></span> Stocks</li>
-          <li><span class="icon-cstm-employees cstm-icon"></span> Employees</li>
+          <li><span class="mdi mdi-view-dashboard cstm-icon"></span> Dashboard</li>
+          <li><span class="mdi mdi-text-box-plus-outline cstm-icon"></span> Requisitions</li>
+          <li><span class="mdi mdi-store cstm-icon"></span> Stocks</li>
+          <li><span class="mdi mdi-account-group cstm-icon"></span> Employees</li>
           <!-- <li><span class="icon-cstm-invoice"></span> Report</li> -->
         </ul>
       </div>

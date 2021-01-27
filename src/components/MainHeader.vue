@@ -12,13 +12,14 @@
 				</div>
 				<div class="col-md-1">
 
-					<span class="icon-cstm-notification"></span>
+					<span class="mdi mdi-bell"></span>
 				</div>
 			</div>
 		</div>
 	</div>
 </template>
 <script>
+
 	export default{
 		name: 'MainHeader',
 		data(){
