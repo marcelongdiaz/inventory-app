@@ -1,5 +1,5 @@
 <template>
-	<div class="row">
+	<div class="row cstm-container">
 		<div class="col-md-2 header-1">
 			<h1>{{ companyName }}</h1>
 		</div>
@@ -40,6 +40,6 @@
 	border: 2px dashed #f69c55;
 }
 .header-2{
-	padding: 20px 30px
+	padding: 10px 30px
 }
 </style>

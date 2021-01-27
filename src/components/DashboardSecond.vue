@@ -1,11 +1,16 @@
 <template>
   <div class="row">
-      <div class="col-md-6 cstm-second-stock">
-          <h3 class="d-inline float-left">{{ title1 }}</h3>
-          <button class="btn btn-outline-primary">See all</button>
-          <progress-bar></progress-bar>
+      <div class="col-md-6 cstm-second-stock cstm-container">
+          <div class="cstm-req-header">
+            <h3 class="d-inline float-left">{{ title1 }}</h3>
+            <button class="btn btn-outline-primary float-right">See all</button>
+          </div>
+          <div class="progressbar-container">
+
+            <progress-bar></progress-bar>
+          </div>
       </div>
-      <div class="col-md-6">
+      <div class="col-md-6  cstm-container  ">
           <h3>{{ title2 }}</h3>
       </div>
   </div>
@@ -49,6 +54,20 @@ export default {
 
 <style>
 .cstm-second-stock{
-    padding: 31px
+    /* padding: 31px */
+    padding: 0px
+}
+.cstm-req-header{
+    overflow: hidden;
+    padding: 20px 31px 20px 31px;
+    position: relative;
+    border-bottom: 0.5px solid gray
+}
+.cstm-req-header h3{
+    transform: translateY(50%)
+}
+
+.progressbar-container{
+    padding: 33px 30px 29px 30px
 }
 </style>

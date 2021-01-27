@@ -1,8 +1,8 @@
 <template>
-  <div class="table">
+  <div class="table cstm-container cstm-container-req">
       <div class="table-header cstm-dashboard-table">
         <h3 class="text-left">{{ title }}</h3>
-        <p class="text-right">
+        <p class="text-right cstm-text-right">
             <button class="btn btn-outline-primary">See all</button>
         </p>
       </div>
@@ -50,5 +50,17 @@ export default {
 }
 .cstm-table-thead tr th{
     font-weight: normal;
+}
+.cstm-container-req{
+    max-height:578px;
+    height: 100%;
+    min-height: 578px;
+    padding: 21px 23px;
+    box-sizing: border-box
+
+}
+.cstm-text-right{
+    position: relative;
+    top: -20px;
 }
 </style>

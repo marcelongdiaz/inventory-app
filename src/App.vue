@@ -2,7 +2,7 @@
   <div id="app">
     <main-header></main-header>
     <div class="row">
-      <div class="col-md-2 cstm-nav">
+      <div class="col-md-2 cstm-nav cstm-container">
         <ul class="cstm-nav-list">
           <li><span class="icon-cstm-dashboard cstm-icon"></span> Dashboard</li>
           <li><span class="icon-cstm-requisition cstm-icon"></span> Requisitions</li>
@@ -66,7 +66,7 @@ export default {
   margin-right: 16px
 }
 .cstm-view{
-  padding: 30px;
+  padding: 22px;
   box-sizing: border-box;
 }
 
